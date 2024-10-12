@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Database settings
+*.sqlite3
+*.db
+
+# Dependency directories
+/node_modules
+/views/node_modules
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Mac system files
+.DS_Store
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.iml
+
+# Production bundle
+/views/public/build
+/views/public/assets
+
+# Coverage
+coverage/
+
+# Debugging files
+*.log
+*.out
+*.lock
+
+# Miscellaneous
+*.sublime-workspace
+*.sublime-project
